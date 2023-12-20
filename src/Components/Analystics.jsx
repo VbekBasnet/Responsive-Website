@@ -3,9 +3,9 @@ import laptop from "../Assets/laptop.jpg";
 
 const Analystics = () => {
   return (
-    <div className="bg-white py-16 px-4">
-      <div className="max-w-[1240px] mx-auto grid md:grid-col-2 ">
-        <img className=" w-[500px] mx-auto my-4" src={laptop} alt="" />
+    <div className=" w-full bg-white py-16 px-4">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 ">
+        <img className=" w-[500px] mx-auto my-4" src={laptop} alt="/" />
         <div className="uppercase flex flex-col justify-center">
           <p className="text-[#00df9a] font-bold">Data Analystics dashboard</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">

@@ -4,7 +4,7 @@ const Newsletter = () => {
   return (
     <div className="w-full py-16 text-white px-4">
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
-        <div className="lg:col-span-2">
+        <div className="lg:col-span-2 py-2">
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             Want tips & tricks to optimize your flow
           </h1>
@@ -21,6 +21,10 @@ const Newsletter = () => {
               Notify Me
             </button>
           </div>
+          <p>
+            We care about the protection of uour data. Read our
+            <span className="text-[#00df9a] px-2">Privacy Policy.</span>
+          </p>
         </div>
       </div>
     </div>
